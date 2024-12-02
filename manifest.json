@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Retab Chrome",
+  "version": "1.0",
+  "description": "Save and restore your browser sessions with ease. By Ahmed Zouaghi.",
+  "permissions": ["tabs", "windows", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  }
+}
